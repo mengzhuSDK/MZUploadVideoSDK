@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.authors      = "Mengzhu"
   s.name         = "MZUploadVideoSDK"
-  s.version      = "1.0.0"
+  s.version      = "2.6.0"
   s.summary      = "MZUploadVideoSDK iOS SDK"
   s.description  = "Provide PushFlow Server Function"
   s.homepage     = "http://www.zmengzhu.com"
@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.resource="MZUploadVideoSDK/MZUploadVideoSDK.bundle"
   s.libraries   =  'resolv'
   s.dependency 'MJExtension'
-  s.dependency 'MZCoreSDKLibrary','>= 2.5.0'
+  s.dependency 'MZCoreSDKLibrary','>= 2.6.0'
   s.frameworks = 'Foundation', 'AVFoundation', 'UIKit', 'CoreTelephony', 'SystemConfiguration'
   end
